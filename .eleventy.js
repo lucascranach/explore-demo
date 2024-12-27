@@ -145,6 +145,7 @@ module.exports = function (eleventyConfig) {
   // Watch our compiled assets for changes
   eleventyConfig.addPassthroughCopy('src/compiled-assets');
   eleventyConfig.addPassthroughCopy('./compiled-content');
+  eleventyConfig.addPassthroughCopy('./.nojekyll');
 
   // Copy all fonts
   eleventyConfig.addPassthroughCopy({ 'src/assets/fonts': 'assets/fonts' });
