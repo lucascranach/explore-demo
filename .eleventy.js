@@ -174,6 +174,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addJavaScriptFunction("getBaseUrl", () => {
+    console.log(config.cranachBaseUrl[process.env.ELEVENTY_ENV]);
     return config.cranachBaseUrl[process.env.ELEVENTY_ENV];
   });
 

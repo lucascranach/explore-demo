@@ -177,9 +177,9 @@ class Overview {
 
             console.log('graph', graph);
           </script>
-          <script type="module" defer src="/assets/scripts/modules/d3-start.js"></script>
-          <script type="module" defer src="/assets/scripts/modules/d3-stacked-bar-chart.js"></script>
-          <script type="module" defer src="/assets/scripts/modules/d3-relations.js"></script>
+          <script type="module" defer src="${this.url('/assets/scripts/modules/d3-start.js')}"></script>
+          <script type="module" defer src="${this.url('/assets/scripts/modules/d3-stacked-bar-chart.js')}"></script>
+          <script type="module" defer src="${this.url('/assets/scripts/modules/d3-relations.js')}"></script>
         </body>
       </html>`;
     }

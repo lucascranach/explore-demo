@@ -9,7 +9,7 @@
     "watch:css": "onchange 'src/assets/styles/**/*.css' -- npm run build:css",
     "watch": "npm-run-all --parallel build:css watch:*",
     "build:css": "lightningcss --minify --bundle --sourcemap --targets '>= 0.25%' src/assets/styles/styles.css -o src/compiled-assets/styles.css",
-    "build:site": "npx cross-env ELEVENTY_ENV=external npx eleventy",
+    "build:site": "npx cross-env ELEVENTY_ENV=production npx eleventy",
     "internal:site": "npx cross-env ELEVENTY_ENV=internal npx eleventy",
     "del:docs": "rimraf ./docs",
     "del:assets": "rimraf ./src/compiled-assets",
