@@ -18,7 +18,6 @@ exports.getHeader = (eleventy, content) => {
       <meta name="view-transition" content="same-origin">
 
       <link href="${eleventy.url('/compiled-assets/styles.css')}" rel="stylesheet">
-      <script defer src="https://cdn.jsdelivr.net/npm/d3@7"></script>
       <script defer type="module" src="${eleventy.url('/assets/scripts/main.js')}"></script>
 
     </head>

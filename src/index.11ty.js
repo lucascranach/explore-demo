@@ -172,7 +172,7 @@ class Overview {
             const yearsWithItemsAndCountData = ${JSON.stringify(yearsWithItemsAndCountDE)};
             const yearsWithItemsAndCountByTypeData = ${JSON.stringify(data.collections.yearsWithItemsAndCountByTypeDE)};
             const rangeOfYearsData = [${this.getRangeOfYears()}];
-            const rangeOfYears = [1490, 1650];
+            const rangeOfYears = [1000, 1950];
             const graph = ${JSON.stringify(data.collections.relationGraphDE)};
 
             console.log('graph', graph);
