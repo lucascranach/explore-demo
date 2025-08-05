@@ -14,7 +14,7 @@ const config = {
   "compiledContent": "./compiled-content",
   "pathPrefix": {
     "development": "/",
-    "production": "/",
+    "production": "explore-demo/",
   },
   
   "imageTiles": {
